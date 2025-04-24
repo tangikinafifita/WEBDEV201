@@ -1,0 +1,88 @@
+
+body {
+    background-color: #f8f0e3; /* Light beige background */
+    font-family: 'Georgia', serif;
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+#header-container {
+    background-color: #d4a373; /* Light brown header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#left-column {
+    width: 45%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#right-column {
+    width: 45%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+h1, h2, h3 {
+    color: #a0522d; /* Sienna brown headings */
+}
+
+ul, ol {
+    line-height: 1.6;
+}
+
+.recipe {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.recipe h3 {
+    color: #774a31; /* Chocolate brown recipe titles */
+}
+
+.image-caption {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#tableau-embed {
+    margin-top: 20px;
+}
+
+#navigation {
+    text-align: center;
+    padding: 10px;
+    background-color: #e9c46a; /* Mustard yellow navigation */
+    margin-top: 20px;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e07a5f; /* Burnt orange link background */
+}
+
+#navigation a:hover {
+    background-color: #d62828; /* Crimson hover background */
+}
